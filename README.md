@@ -42,4 +42,4 @@ Prefiro aprender **resolvendo problemas reais**, criando soluções práticas (m
 Se quiser trocar uma ideia ou tiver alguma vaga/projeto relacionado a dados ou automação:
 
 👉 [Meu LinkedIn](https://www.linkedin.com/in/jeffersoncoriolano/)  
-👉 Ou pode abrir uma issue por aqui no GitHub 😄
+👉 Ou pode abrir uma issue por aqui no GitHub
