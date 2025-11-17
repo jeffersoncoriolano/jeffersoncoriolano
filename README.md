@@ -6,7 +6,7 @@
 - **SQL (PostgreSQL, Supabase, MySQL, SQLite)**
 - **ETL / ELT**
 - **Databricks**
-- **Spark**
+- **PySpark**
 - **Manipulação e transformação de dados**
 - **Automatização de pipelines**
 - **Git**
