@@ -1,82 +1,101 @@
 # 👋 Olá, eu sou Jefferson Coriolano
 
-### Engenheiro de Automação por formação, **Engenheiro de Dados** por profissão com ênfase em:
+Engenheiro de Automação por formação e **Engenheiro de Dados** por porfissão, com experiência na construção de pipelines, modelagem de dados e soluções analíticas voltadas à confiabilidade, escalabilidade e suporte à tomada de decisão.
 
-- **Python**
-- **SQL (PostgreSQL, Supabase, MySQL, SQLite)**
-- **ETL / ELT**
+Atuo principalmente com dados operacionais e analíticos, desenvolvendo pipelines end-to-end, organizando camadas de dados e transformando informações brutas em ativos confiáveis para consumo por áreas de negócio e BI.
+
+---
+
+## 🚀 Foco atual
+
+- **Engenharia de Dados**
+- **Python e SQL**
+- **Apache Spark (PySpark / Spark SQL)**
+- **dbt**
+- **AWS**
 - **Databricks**
-- **PySpark**
-- **Manipulação e transformação de dados**
-- **Automatização de pipelines**
-- **Git**
-
-### 🛠️ Outras skills que fazem parte do meu kit:
-
-- **N8N** – Criação de fluxos de automação low-code
-- **Integrações com APIs**
-- **Uso prático de IA generativa (Google Gemini, OpenAI) para automações de processos**
-
-### 🚀 Estilo de aprendizado:
-
-Prefiro aprender **resolvendo problemas reais**, criando soluções práticas (muitas vezes nascidas de necessidades pessoais).
+- **Modelagem relacional e dimensional**
+- **Pipelines ETL / ELT**
+- **Arquiteturas em camadas (staging / intermediate / marts | bronze / silver / gold)**
 
 ---
 
-### 📌 Projetos em destaque:
+## 🛠️ Stack principal
 
-#### 1. Pipeline Serverless de Processamento de Dados de Velocidade (AWS)
-
-**Arquitetura Geral**
-- S3 (raw XLSX)
- → Lambda (trigger)
- → AWS Glue (ETL: XLSX → CSV)
- → S3 (processed)
- → Lambda (ingestão)
- → RDS MySQL
- → S3 (processed_ingested)
-
-**Principais Recursos**
-- Particionamento por year=YYYY/month=MM seguindo modelo de Data Lake
-- Glue executando conversão e limpeza de arquivos com mais de 500k linhas
-- Lambda com:
-  - batch insert configurável (ex.: 5k)
-  - retry com exponential backoff
-  - reconexão automática ao banco
-  - prevenção de reprocessamento (arquivamento após ingestão)
-  - suporte a deduplicação (INSERT IGNORE)
-- Pipeline totalmente escalável e de baixo custo (pay-per-use)
-
-**Tecnologias**
-- AWS: S3, Lambda, Glue, RDS MySQL, CloudWatch, IAM
-- Python: pandas, boto3, PyMySQL
-- Padrões: Data Lake, ETL/ELT, arquitetura serverless
-
-**Resultado**
-Pipeline robusto que:
-- Automatiza todo o fluxo de processamento dos arquivos de velocidade
-- Insere milhões de registros no banco com resiliência
-- Mantém trilha auditável via processed_ingested
-- Cria base sólida para BI, análises de tráfego e projetos de Mobilidade Urbana Inteligente
-
----
- 
-#### 2. **Automação de controle de gastos via Telegram + IA + PostgreSQL + N8N:**  
-[👉 Ver no GitHub](https://github.com/jeffersoncoriolano/controle-de-gastos-automatizado-n8n-postgresql-ai)
+- **Python** (Pandas, SQLAlchemy, Requests)
+- **SQL** (PostgreSQL, MySQL)
+- **Apache Spark** (PySpark, Spark SQL)
+- **dbt** (modelagem, testes, materializações, documentação)
+- **AWS** (S3, Glue, Lambda, RDS, EMR)
+- **Databricks** (Delta Lake, Parquet)
+- **Git / GitHub / GitHub Actions**
+- **Airflow** (conceitos de orquestração)
 
 ---
 
-### 📈 Próximos passos:
+## 📌 Áreas em que tenho atuado
 
-- Aprimorar minhas skills em **Databricks**, **Spark** e processamento distribuído
-- Me aprofundar em **pipelines de dados em escala**
-- Explorar ferramentas de orquestração como **Airflow**
+- Construção e manutenção de pipelines de dados
+- Extração, tratamento e padronização de dados de múltiplas fontes
+- Modelagem relacional e dimensional para analytics
+- Estratégias de incrementalidade, idempotência e qualidade de dados
+- Otimização de consultas SQL e estruturas analíticas
+- Organização de dados para consumo por dashboards e relatórios
 
 ---
 
-### 📬 Vamos conversar?
+## 📂 Projetos em destaque
 
-Se quiser trocar uma ideia ou tiver alguma vaga/projeto relacionado a dados ou automação:
+### 1. Pipeline serverless de processamento de dados de mobilidade urbana
+Projeto de ingestão e processamento de grandes volumes de dados operacionais utilizando arquitetura serverless em AWS.
 
-👉 [Meu LinkedIn](https://www.linkedin.com/in/jeffersoncoriolano/)  
-👉 Ou pode abrir uma issue por aqui no GitHub
+**Principais pontos:**
+- ingestão automatizada de arquivos
+- tratamento e padronização de dados
+- particionamento em data lake
+- persistência em banco relacional
+- prevenção de reprocessamento
+- base estruturada para análises e BI
+
+**Tecnologias:**
+AWS (S3, Lambda, Glue, RDS), Python, SQL, arquitetura de dados em camadas
+
+---
+
+### 2. Projetos de modelagem analítica com dbt
+Projeto voltados à modelagem em camadas, construção de marts analíticos, testes de qualidade e organização da camada semântica para consumo analítico.
+
+**Principais pontos:**
+- staging, intermediate e marts
+- materializações adequadas por camada
+- testes de qualidade
+- incrementalidade e idempotência
+- documentação e organização da lógica analítica
+
+**Tecnologias:**
+dbt, PostgreSQL, SQL, modelagem dimensional
+
+---
+
+### 3. Dashboards e aplicações analíticas
+Desenvolvimento de dashboards e protótipos analíticos para exploração de dados operacionais e apoio à decisão.
+
+**Tecnologias:**
+Streamlit, Power BI, SQL, Python
+
+---
+
+## 📈 Atualmente estudando e aprofundando
+
+- **Databricks e Lakehouse**
+- **Spark em cenários de maior escala**
+- **dbt em contexto produtivo**
+- **Engenharia de software aplicada a dados**
+- **Boas práticas de testes, modularização e confiabilidade de pipelines**
+
+---
+
+## 📬 Contato
+
+- [LinkedIn](https://www.linkedin.com/in/jeffersoncoriolano/)
+- GitHub: [@jeffersoncoriolano](https://github.com/jeffersoncoriolano)
